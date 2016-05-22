@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Cordova.depends({
-  "cn.jpush.phonegap.JPushPlugin": "file:///Volumes/G/Github/jpush-phonegap-plugin"
+  "cn.jpush.phonegap.JPushPlugin": "https://github.com/jpush/jpush-phonegap-plugin.git#3810209ca662fa92f7b9a345356944a2cc0811c4"
 });
 
 Package.onUse(function (api) {
